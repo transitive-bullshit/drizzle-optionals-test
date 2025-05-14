@@ -1,5 +1,4 @@
 import { defineConfig } from 'tsup'
-import Quansync from 'unplugin-quansync/esbuild'
 
 export default defineConfig([
   {
@@ -12,7 +11,6 @@ export default defineConfig([
     sourcemap: true,
     minify: false,
     shims: true,
-    dts: true,
-    esbuildPlugins: [Quansync()]
+    dts: true
   }
 ])
