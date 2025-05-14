@@ -5,7 +5,9 @@
 
 # Drizzle Optionals Test <!-- omit from toc -->
 
-**TODO**
+Example usage of forking Drizzle to use `undefined` for optional values instead of `null` ([drizzle issue](https://github.com/drizzle-team/drizzle-orm/issues/2745)).
+
+This is the [Drizzle fork used](https://github.com/transitive-bullshit/drizzle-orm/tree/feature/drizzle-zod-optionals).
 
 ## License
 
