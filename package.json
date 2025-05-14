@@ -22,7 +22,6 @@
     "@fisch0920/drizzle-zod": "^0.7.7",
     "@paralleldrive/cuid2": "^2.2.2",
     "dotenv": "^16.5.0",
-    "drizzle-seed": "^0.3.1",
     "postgres": "^3.4.5",
     "zod": "^3.24.4"
   },
@@ -31,6 +30,7 @@
     "@types/node": "^22.15.18",
     "drizzle-kit": "^0.31.1",
     "drizzle-orm": "^0.43.1",
+    "drizzle-seed": "^0.3.1",
     "eslint": "^9.26.0",
     "eslint-plugin-drizzle": "^0.2.3",
     "lint-staged": "^16.0.0",

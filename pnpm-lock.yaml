@@ -20,9 +20,6 @@ importers:
       dotenv:
         specifier: ^16.5.0
         version: 16.5.0
-      drizzle-seed:
-        specifier: ^0.3.1
-        version: 0.3.1(drizzle-orm@0.43.1(postgres@3.4.5))
       postgres:
         specifier: ^3.4.5
         version: 3.4.5
@@ -42,6 +39,9 @@ importers:
       drizzle-orm:
         specifier: ^0.43.1
         version: 0.43.1(postgres@3.4.5)
+      drizzle-seed:
+        specifier: ^0.3.1
+        version: 0.3.1(drizzle-orm@0.43.1(postgres@3.4.5))
       eslint:
         specifier: ^9.26.0
         version: 9.26.0
