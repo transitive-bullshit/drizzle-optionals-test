@@ -18,8 +18,8 @@
     "prepare": "simple-git-hooks"
   },
   "dependencies": {
-    "@fisch0920/drizzle-orm": "^0.43.5",
-    "@fisch0920/drizzle-zod": "^0.7.7",
+    "@fisch0920/drizzle-orm": "^0.43.7",
+    "@fisch0920/drizzle-zod": "^0.7.9",
     "@paralleldrive/cuid2": "^2.2.2",
     "dotenv": "^16.5.0",
     "postgres": "^3.4.5",

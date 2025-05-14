@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@fisch0920/drizzle-orm':
-        specifier: ^0.43.5
-        version: 0.43.5(postgres@3.4.5)
+        specifier: ^0.43.7
+        version: 0.43.7(postgres@3.4.5)
       '@fisch0920/drizzle-zod':
-        specifier: ^0.7.7
-        version: 0.7.7(@fisch0920/drizzle-orm@0.43.5(postgres@3.4.5))(zod@3.24.4)
+        specifier: ^0.7.9
+        version: 0.7.9(@fisch0920/drizzle-orm@0.43.7(postgres@3.4.5))(zod@3.24.4)
       '@paralleldrive/cuid2':
         specifier: ^2.2.2
         version: 2.2.2
@@ -423,8 +423,8 @@ packages:
       prettier: '>= 3'
       typescript: '>= 5'
 
-  '@fisch0920/drizzle-orm@0.43.5':
-    resolution: {integrity: sha512-Uv/yqe+PozEA6fkyiOj7fX/0YHfRSw70mDmUhT/bdLYUxn9hSjW0rAcWlmCNq/eiiwsRUa8LHF5h2Y5TL2WwFw==}
+  '@fisch0920/drizzle-orm@0.43.7':
+    resolution: {integrity: sha512-dFNuV117sovPJRqbzUwldXM/N1j41dtn7Hf7dbebi0s3VuaKi4tzMUzHgZVFK83N3LC5NV0cjQHWBb9Avn8JvA==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=4'
@@ -512,8 +512,8 @@ packages:
       sqlite3:
         optional: true
 
-  '@fisch0920/drizzle-zod@0.7.7':
-    resolution: {integrity: sha512-y6rA4jcM6WHufdR4vy0ZC3z6VKNneVjbTQ4bvbwjwZd+qoznH/QKD5fbXBFmpsVCL/Oa+ncg4eCpq1QDE0RqJA==}
+  '@fisch0920/drizzle-zod@0.7.9':
+    resolution: {integrity: sha512-Qx9sDGub3cpkUbBHpQ7YnPRRmq/jsz74Y/NHbh8hO3EkxkxgVOvsjn2JAVzY5UyMP/BGWnV1LrPwBvoXlSYn3g==}
     peerDependencies:
       '@fisch0920/drizzle-orm': '>=0.36.0'
       zod: '>=3.0.0'
@@ -2833,13 +2833,13 @@ snapshots:
       - supports-color
       - vitest
 
-  '@fisch0920/drizzle-orm@0.43.5(postgres@3.4.5)':
+  '@fisch0920/drizzle-orm@0.43.7(postgres@3.4.5)':
     optionalDependencies:
       postgres: 3.4.5
 
-  '@fisch0920/drizzle-zod@0.7.7(@fisch0920/drizzle-orm@0.43.5(postgres@3.4.5))(zod@3.24.4)':
+  '@fisch0920/drizzle-zod@0.7.9(@fisch0920/drizzle-orm@0.43.7(postgres@3.4.5))(zod@3.24.4)':
     dependencies:
-      '@fisch0920/drizzle-orm': 0.43.5(postgres@3.4.5)
+      '@fisch0920/drizzle-orm': 0.43.7(postgres@3.4.5)
       zod: 3.24.4
 
   '@humanfs/core@0.19.1': {}

@@ -27,7 +27,8 @@ export const users = pgTable(
     role: userRoleEnum().default('user').notNull(),
 
     email: text().unique(),
-    password: text()
+    password: text(),
+    name: text()
   },
   (table) => [
     uniqueIndex('user_email_idx').on(table.email),
@@ -51,12 +52,14 @@ export const userInsertSchema = createInsertSchema(users)
   .pick({
     username: true,
     email: true,
-    password: true
+    password: true,
+    name: true
   })
   .strict()
 
 export const userUpdateSchema = createUpdateSchema(users)
   .pick({
-    password: true
+    password: true,
+    name: true
   })
   .strict()
